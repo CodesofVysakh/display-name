@@ -41,7 +41,7 @@ function App() {
                     required
                 />
                 <br></br>
-                <button onClick={handleSubmit}>Submit</button>
+                <button type="submit">Submit</button>
             </form>
             {isShow && (
                 <p>
